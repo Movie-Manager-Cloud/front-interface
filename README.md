@@ -3,4 +3,5 @@
 ## Project setup
 ```
 ./deploy.sh
+
 ```
