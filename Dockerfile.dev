@@ -1,0 +1,14 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Copy All files
+COPY . .
+
+RUN npm install
+
+# Expose the port the app runs on
+EXPOSE 8080
+
+# Set entry point to run the application
+CMD ["npm", "run", "serve"]

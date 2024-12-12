@@ -1,0 +1,20 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Copy all files
+COPY . . 
+
+RUN npm install
+
+# Install http-server globally
+RUN npm install -g http-server
+
+# Build the application
+RUN npm run build
+
+# Expose the port the app runs on
+EXPOSE 8080
+
+# Set entry point to run the application
+CMD ["http-server", "dist"]
