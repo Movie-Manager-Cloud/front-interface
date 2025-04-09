@@ -1,2 +1,2 @@
-let HOST = "http://localhost:5000/"
+let HOST = "back/"
 export default HOST
