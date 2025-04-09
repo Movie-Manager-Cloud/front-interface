@@ -1,2 +1,2 @@
-let HOST = "back/"
+let HOST = "/"
 export default HOST
