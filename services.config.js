@@ -1,2 +1,2 @@
-let HOST = process.env.VUE_APP_API_HOST
+let HOST = ""
 export default HOST
