@@ -1,2 +1,2 @@
-let HOST = process.env.HOST || ""
+let HOST = process.env.API_HOST || ""
 export default HOST
